@@ -1,6 +1,6 @@
 <template>
   <div id="appTool">
-    <img alt="Challenger logo" src="./assets/Challenger.jpg" />
+    <!-- <img alt="  logo" src="./assets/.jpg" /> -->
     <router-view name="title" />
     <router-view name="steps" />
     <router-view name="main" />

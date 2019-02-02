@@ -1,7 +1,7 @@
 <template>
   <div id="appTool">
-    <img alt="Challenger logo" src="./assets/Challenger.jpg" />
-    <TitleComponent msg="Challenger life time annuity tool" /> -->
+    <img alt=" logo" src="./assets/.jpg" />
+    <TitleComponent msg="life time tool" /> -->
     <StepComponent
       stepNumber="Step 1"
       stepTitle="Tell us a little about yourself"

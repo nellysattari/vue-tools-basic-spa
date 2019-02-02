@@ -1,3 +1,5 @@
+This is a basic Vue js project with simple routing which is exported as a lib module and should be imported into other apps.
+This is a test for that purpose.
 # tool-src
 
 ## Project setup

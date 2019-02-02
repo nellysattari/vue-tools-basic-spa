@@ -17,7 +17,7 @@ const router = new VueRouter({
         main: Ques1Component
       },
       props: {
-        title: () => ({ msg: "Challenger life time annuity tool" }),
+        title: () => ({ msg: "life time  tool" }),
         steps: () => ({
           stepNumber: "Step 1",
           stepTitle: "Tell us a little about yourself"
@@ -44,7 +44,7 @@ const router = new VueRouter({
         main: Ques2Component
       },
       props: {
-        title: () => ({ msg: "Challenger life time annuity tool" }),
+        title: () => ({ msg: "life time tool" }),
         steps: () => ({
           stepNumber: "Step 2",
           stepTitle: "Payment illustrator"
