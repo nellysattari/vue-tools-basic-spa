@@ -1,6 +1,6 @@
 {
   "name": "tool-vue-lib",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": "Nelly Sattari",
   "main": "./dist/tool-vue-lib.common.js",
