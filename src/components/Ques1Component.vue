@@ -4,11 +4,11 @@
       <p v-for="(question, index) in questions">
         {{ index + 1 }}-{{ question.title }}
       </p>
+      <input type="text">
     </div>
     <!-- <a href="#" class="btn btn-primary"> next </a> -->
     <router-link
       to="/step2"
-      v-bind:questions="questions"
       class="btn btn-primary"
       >next</router-link
     >

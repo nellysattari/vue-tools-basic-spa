@@ -1,6 +1,9 @@
 <template>
   <div class="hello">
      <h1>{{ msg }}</h1>
+      <router-link
+      to="/step1"
+      class="btn btn-primary">questions</router-link>
   </div>
 </template>
 

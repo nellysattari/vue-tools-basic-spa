@@ -5,7 +5,9 @@
         {{ index + 1 }}-{{ question.title }}
       </p>
     </div>
-    <a href="/" class="btn btn-primary"> Previous </a>
+     <router-link
+      to="/step1"
+      class="btn btn-primary">previous</router-link>
     <a href="#" class="btn btn-primary"> Submit </a>
   </div>
 </template>
