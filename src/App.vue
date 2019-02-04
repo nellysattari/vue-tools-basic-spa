@@ -1,7 +1,8 @@
 <template>
   <div id="appTool">
     <!-- <img alt="  logo" src="./assets/.jpg" /> -->
-    <router-view name="title" />
+    <!-- <router-view name="title" /> -->
+     <TitleComponent msg="life time tool" />  
     <router-view name="steps" />
     <router-view name="main" />
     <!-- //v-bind:questions="questions"  -->
@@ -9,8 +10,12 @@
 </template>
 
 <script>
+import TitleComponent from "./components/TitleComponent.vue";
 export default {
-  name: "app"
+  name: "app",
+   components: {
+    TitleComponent
+   }
 };
 </script>
 

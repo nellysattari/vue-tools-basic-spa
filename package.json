@@ -1,6 +1,6 @@
 {
   "name": "tool-vue-lib",
-  "version": "0.3.1",
+  "version": "0.4.1",
   "private": false,
   "author": "Nelly Sattari",
   "main": "./dist/tool-vue-lib.common.js",
@@ -14,12 +14,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --name tool-vue-lib ./src/components/index.js" ,
+    "build-lib": "vue-cli-service build --target lib --name tool-vue-lib ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "vue": "^2.5.22",
-    "vue-router": "^3.0.2"
+    "vue-router": "^3.0.2",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
