@@ -2,20 +2,25 @@
   <div id="appTool">
     <!-- <img alt="  logo" src="./assets/.jpg" /> -->
     <!-- <router-view name="title" /> -->
-     <TitleComponent msg="life time tool" />  
+    <TitleComponent msg="life time tool" />
     <router-view name="steps" />
     <router-view name="main" />
+    <!-- <router-view name="result"/> -->
     <!-- //v-bind:questions="questions"  -->
   </div>
 </template>
 
 <script>
 import TitleComponent from "./components/TitleComponent.vue";
+
 export default {
   name: "app",
-   components: {
+  components: {
     TitleComponent
-   }
+  },
+  created: function() {
+    this.$store.dispatch("loadQuestions");
+  }
 };
 </script>
 
